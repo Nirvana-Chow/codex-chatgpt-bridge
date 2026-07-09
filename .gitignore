@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Local-only backups
+local_backups/
+
+# Private exports
+raw/
+private/
+secrets/
+apple-notes/
+bills/
+work-materials/
+chatgpt-full-export/
+
+# Large or temporary files
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.bak
+~$*
