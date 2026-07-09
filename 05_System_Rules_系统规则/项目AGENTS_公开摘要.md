@@ -1,6 +1,6 @@
 # 项目 AGENTS 公开摘要
 
-更新时间：2026-07-09 15:35
+更新时间：2026-07-09 15:37
 
 Obsidian-Codex 的本地完整规则仍以本机项目 `AGENTS.md` 和 Obsidian Skill 为准；公开 bridge 只提供安全摘要。
 
