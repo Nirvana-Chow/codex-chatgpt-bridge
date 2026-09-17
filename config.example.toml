@@ -1,0 +1,3 @@
+mode = "synthetic"
+# An operator-created lab, never a real source directory.
+lab = "/path/to/synthetic-lab"
