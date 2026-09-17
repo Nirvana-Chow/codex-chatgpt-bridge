@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "readonly-context-mcp"
+version = "0.1.0"
+description = "Synthetic-only, read-only context MCP acceptance server"
+requires-python = ">=3.13,<3.14"
+dependencies = ["mcp==2.2.0"]
+
+[project.scripts]
+readonly-context-mcp = "readonly_mcp.server:main"
+
+[dependency-groups]
+dev = ["pytest==8.4.2", "pytest-asyncio==1.2.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/readonly_mcp"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
